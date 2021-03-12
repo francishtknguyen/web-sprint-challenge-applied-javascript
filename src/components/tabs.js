@@ -41,7 +41,7 @@ const tabsAppender = (selector) => {
   .then(res => {
     const tabSelector = document.querySelector(selector);
     const tab = Tabs(res.data.topics);
-    console.log(tab);
+    // console.log(tab);
     tabSelector.appendChild(tab);
   })
   .catch( err => {
