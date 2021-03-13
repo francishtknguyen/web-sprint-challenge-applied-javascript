@@ -75,7 +75,21 @@ There are two possible ways to submit this project to Canvas. Lambda Staff will 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+
+The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page.
+
 2. What is an event?
+
+The Event interface represents an event which takes place in the DOM.
+
 3. What is an event listener?
+
+The EventListener interface represents an object that can handle an event dispatched by an EventTarget object.
+
 4. Why would we convert a NodeList into an Array?
+
+The querySelectorAll method returns an array-like object called a node list. These data structures are referred to as “Array-like”, because they appear as an array, but can not be used with array methods like map and forEach
+
 5. What is a component?
+
+a component is made up of html,css, and javascript. With javascript being the glue that sticks them together. A way to make your code more accesible 

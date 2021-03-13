@@ -43,6 +43,8 @@ const Card = (article) => {
 
   return card;
 }
+// Testing Card function
+
 // const cardContainer = document.querySelector('.cards-container') 
 
 // const hello ={
@@ -68,14 +70,13 @@ const cardAppender = (selector) => {
   axios
   .get("https://lambda-times-api.herokuapp.com/articles")
   .then(res => {
-    
-    console.log(res.data);
-    // console.log(res.data.articles);
+    // console.log(res.data);
+    console.log(res.data.articles);
     // console.log(res.data.articles.javascript);
 
     const data = res.data.articles;
     for(var key in data){
-      const obj = data.[key]
+      const obj = data[key]
       obj.forEach(element => {
         const card = Card(element);
         cardContainer.appendChild(card);
